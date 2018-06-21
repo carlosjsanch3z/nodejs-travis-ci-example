@@ -1,0 +1,22 @@
+{
+  "author": "Charlie Sanchez <carlosjsanchezortega@gmail.com>",
+  "name": "nodejs-travis-ci-example",
+  "description": "An example node.js project that uses vows and travis-ci.org for continuous integration",
+  "version": "0.0.0",
+  "homepage": "http://travis-ci.org/#!/travis-ci/travis-ci-node.js-example",
+  "main": "./lib/serious-calculations.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlosjsanch3z/nodejs-travis-ci-example.git"
+  },
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "0.6.x"
+  }
+}
